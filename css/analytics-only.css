@@ -1,0 +1,10 @@
+/* analytics-only build: hide every way to leave the dashboard */
+.header .menu-toggle,
+.header .role-switcher,
+.header .header-right .icon-btn,
+#view .btn[data-act="items-report"] {
+    display: none !important;
+}
+.header .logo-area {
+    pointer-events: none;
+}
